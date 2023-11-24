@@ -1,0 +1,114 @@
+body {
+  padding: 20px;
+  background-color: #343045;
+  color: white;
+  font-family: Montserrat 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.page-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contants {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contant-button, .message-button{
+  border-radius: 50px;
+  height: 48px;
+  width: 155px;
+}
+
+.contant-button {
+  background-color: #343045;
+  border: 1px solid white;
+}
+
+.message-button {
+  background-color: #8176AF;
+  color: black;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.main-img {
+  width: 490px;
+  height: 426px;;
+  border-radius: 20% 20% 20% 50%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.content-discription div {
+  display: flex;
+  border: 2px solid white;
+  flex-wrap: wrap;
+  width: 450px;
+}
+
+.content1 {
+  color: #C0B7E8;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+span {
+  color: white;
+}
+
+.content-discription .content3 {
+  background-color: #C0B7E8;
+  border-radius: 20px;
+  width: 214px;
+  height: 48px;
+  align-self: self-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
